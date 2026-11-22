@@ -1,0 +1,43 @@
+{
+  "source_archive": "AM收发系统.zip",
+  "source_archive_sha256": "cae608a5831f5949fd83c5393bf1f904fe0599fd14e0d910ab45ea1290230ff7",
+  "publication_date": "2026-11-22",
+  "native_designs_unchanged": true,
+  "native_application_runtime_verified": false,
+  "static_checks": [
+    "ZIP CRC",
+    "compressed block sizes and end markers",
+    "XML structure",
+    "native SHA256 equality",
+    "relative project references"
+  ],
+  "designs": [
+    {
+      "file": "multisim/01_调幅发射端.ms14",
+      "bytes": 321769,
+      "sha256": "1507fcae381e3bc6a8ef208399a9a7212be7467b1972482707f2ef38686fe062",
+      "components": 50,
+      "wire_records": 115
+    },
+    {
+      "file": "multisim/02_超外差接收端.ms14",
+      "bytes": 616363,
+      "sha256": "4e4ba637b7a913045ee7aa3702e6b950354a70a3233935e8d0e1b31a53c88f51",
+      "components": 92,
+      "wire_records": 246
+    },
+    {
+      "file": "multisim/03_完整收发系统.ms14",
+      "bytes": 879925,
+      "sha256": "aa93082627ea4ca6483f841cdb8138a9d1781236712264f45169d7d22bf90714",
+      "components": 142,
+      "wire_records": 364
+    }
+  ],
+  "project_entry": {
+    "file": "multisim/AM收发系统.mp14",
+    "change": "Only project/version path references normalized; UTF-16 format retained.",
+    "native_open_verified": false
+  },
+  "status": "Educational simulation snapshot; independent transmitter-to-receiver verification not established."
+}
